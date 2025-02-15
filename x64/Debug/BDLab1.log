@@ -1,0 +1,11 @@
+﻿  BDLab1.cpp
+C:\Users\User\Загрузки\Универ\Базы данных\BDLab1\BDLab1\BDLab1.cpp(121,20): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\Загрузки\Универ\Базы данных\BDLab1\BDLab1\BDLab1.cpp(130,20): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\Загрузки\Универ\Базы данных\BDLab1\BDLab1\BDLab1.cpp(208,81): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+C:\Users\User\Загрузки\Универ\Базы данных\BDLab1\BDLab1\BDLab1.cpp(208,81): warning C4267:         with
+C:\Users\User\Загрузки\Универ\Базы данных\BDLab1\BDLab1\BDLab1.cpp(208,81): warning C4267:         [
+C:\Users\User\Загрузки\Универ\Базы данных\BDLab1\BDLab1\BDLab1.cpp(208,81): warning C4267:             _Ty=int
+C:\Users\User\Загрузки\Универ\Базы данных\BDLab1\BDLab1\BDLab1.cpp(208,81): warning C4267:         ]
+C:\Users\User\Загрузки\Универ\Базы данных\BDLab1\BDLab1\BDLab1.cpp(300,26): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\Загрузки\Универ\Базы данных\BDLab1\BDLab1\BDLab1.cpp(320,34): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  BDLab1.vcxproj -> C:\Users\User\Загрузки\Универ\Базы данных\BDLab1\x64\Debug\BDLab1.exe
