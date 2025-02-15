@@ -304,11 +304,19 @@ void deletePublisher(vector<Publisher>& publishers, int id) {
     if (foundIndex != -1) {
         publishers[foundIndex].deleted = 1;
         publisherFreeList.push_back(foundIndex);
+
+        for (size_t j = 0; j < publishers[foundIndex].books.size(); ++j) {
+            if (publishers[foundIndex].books[j].deleted == 0) {
+                publishers[foundIndex].books[j].deleted = 1;
+                publishers[foundIndex].bookFreeList.push_back(j);
+            }
+        }
     }
     else {
         cerr << "Error: Invalid publisher id" << endl;
     }
 }
+
 
 void deleteBook(vector<Publisher>& publishers, int publisherId, int bookId) {
     int foundPublisherIndex = findPublisherIndexById(publishers, publisherId);
